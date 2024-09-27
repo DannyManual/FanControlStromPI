@@ -1,5 +1,8 @@
 # FanControlStromPI
-Bash Skript and Debian Service for PWM Based Fan Control using pigpiod and pigs
+This is a Bash script based Debian Service for PWM Based Fan Control using pigpiod and pigs.
+I wrote this skript, for my StromPI because the fan gets noisy if it runs at 100%. 
+Also Raspberry PI doesn't have hardware PWM on GPIO 2. As far as I am understanding 
+a DMA based PWM is the next best solution to get a smooth fan speed control.
 
 # Requirements
 - Raspberry PI with StromPi Set an Fan connected to GPIO 2.
