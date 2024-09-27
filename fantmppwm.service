@@ -1,0 +1,11 @@
+[Unit]
+Description=Fan Temperature Control Service for StromPI
+
+[Service]
+ExecStart=/usr/local/bin/fantmppwm.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+
+
