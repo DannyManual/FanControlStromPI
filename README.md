@@ -16,6 +16,7 @@ Bash Skript and Debian Service for PWM Based Fan Control using pigpiod and pigs
 - Start Fan Control now: `sudo systemctl start fantmppwm.service`
 
 # Change Settings
+Remember to restart with `sudo systemctl restart fantmppwm.service`
 ```
 /usr/local/bin/fantmppwm.sh
 # Seconds to wait until next update
